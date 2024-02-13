@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  python_hello:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python_hello
+    networks:
+      - devops_network
+
+networks:
+  devops_network:
+    external: true
