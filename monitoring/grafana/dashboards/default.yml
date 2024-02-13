@@ -1,0 +1,9 @@
+apiVersion: 1
+
+providers:
+  - name: MongoDS_Devops
+    folder: Mongo
+    type: file
+    uid: DS_PROMETHEUS
+    options:
+      path: /var/lib/grafana/dashboards
