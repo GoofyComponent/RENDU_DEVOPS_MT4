@@ -1,0 +1,19 @@
+name: Launch hello world
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: devops_runner
+
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+      - name: Install terraform
+        uses: hashicorp/setup-terraform@v3
+      - name: Execute app
+        run: |
+          sh startup.sh

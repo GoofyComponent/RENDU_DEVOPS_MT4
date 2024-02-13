@@ -1,8 +1,12 @@
 *.env
-*.backup
 .terraform
 .terraform.*
 .venv
 test
 test.md
 mongoCheck.*
+*.backup
+*.zip
+*.tfstate
+.pytest_cache
+__pycache__

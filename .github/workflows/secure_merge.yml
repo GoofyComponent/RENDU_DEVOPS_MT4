@@ -1,0 +1,11 @@
+name: Check merges
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  execute-tests:
+    uses: ./.github/workflows/test.yml
