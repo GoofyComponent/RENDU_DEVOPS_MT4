@@ -1,0 +1,5 @@
+Faker==23.1.0
+pandas==2.2.0
+pymongo==4.6.1
+pyspark==3.5.0
+pytest==8.0.0
