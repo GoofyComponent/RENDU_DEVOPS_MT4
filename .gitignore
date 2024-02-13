@@ -1,0 +1,8 @@
+*.env
+*.backup
+.terraform
+.terraform.*
+.venv
+test
+test.md
+mongoCheck.*
